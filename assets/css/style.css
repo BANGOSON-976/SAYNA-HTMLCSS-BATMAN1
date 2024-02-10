@@ -7,3 +7,35 @@
     font-family: 'space-grotesk';
     src: url(../police/SpaceGrotesk-VariableFont_wght.ttf);
   }
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: 'Rajdhani';
+  font-weight: 400;
+  font-size: 36px;
+}
+
+button {
+  font-family: 'Rajdhani';
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+p {
+  font-size: 22px;
+}
