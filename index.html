@@ -193,3 +193,81 @@
           </div>
         </div>
       </section>
+       <!--formulaire-->
+    <section id="contact">
+        <div class="form">
+          <h2>PRENONS CONTACT</h2>
+          <form action="" method="post" id="myForme">
+            <label class="title">ADRESSE EMAIL</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Adresse email"
+            />
+            <span id="invalid"></span>
+            <label class="title">NEWSLETTER</label>
+            <label class="form-check-label" for="check">
+              En cochant cette case vous acceptez de recevoir l’actualité
+              concernant les aventures de Batman :
+            </label>
+            <input
+              type="checkbox"
+              class="form-check-input"
+              name="check"
+              id="check"
+              value="checkedValue"
+            />
+            <div class="menu">
+              <div class="menu-btn">
+                <!-- <span
+                  >Choisissez la fréquence à laquelle vous souhaitez recevoir
+                  votre newsletter</span
+                >
+                <span class="icon"
+                  ><img src="./assets/Logos/icon_flèche_2.png" alt=""
+                /></span> -->
+                <select id="dropdownlist" name="dropdownlist">
+                  <option selected="selected">
+                    Choisissez la fréquence à laquelle vous souhaitez recevoir
+                    votre newsletter
+                  </option>
+                  <option class="c-bg" value="Quotidiennement">
+                    Quotidienne
+                  </option>
+                  <option class="c-bg" value="hebdomadaire">Hebdomadaire</option>
+                  <option class="c-bg" value="Mensuel">Tous les mois</option>
+                  <option class="c-bg" value="annuel">Tous les an</option>
+                </select>
+              </div>
+              <br />
+            </div>
+            <div class="news">Souhaitez vous recevoir des news</div>
+            <div class="btn-group">
+              <input type="radio" name="choix" id="film" /><label
+                class="btnform"
+                for="film"
+                >Des film</label
+              >
+              <input type="radio" name="choix" id="comics" /><label
+                class="btnform"
+                for="comics"
+                >Des comics</label
+              >
+              <input type="radio" name="choix" id="tout" /><label
+                class="btnform"
+                for="tout"
+                >De tout</label
+              >
+            </div>
+            <span class="title">MESSAGE</span>
+            <textarea
+              rows="1"
+              name="msg"
+              id="msg"
+              placeholder="Laissez un commentaire pour la communauté"
+            ></textarea>
+            <input class="btn" type="submit" value="CONFIRMER" />
+          </form>
+        </div>
+      </section>
