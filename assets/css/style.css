@@ -71,4 +71,54 @@ nav {
     filter: invert(18%) sepia(82%) saturate(4658%) hue-rotate(355deg)
       brightness(109%) contrast(112%);
   }
+  /* Top header*/
+
+#hero {
+    background-position: top center;
+    background-image: url(../Illustrations/Bathome1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+  }
   
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: var(--color-white);
+    padding-top: 150px;
+  }
+  #hero .titre {
+    color: white;
+    margin-bottom: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .btn {
+    font-family: 'rajdhani';
+    font-size: 20px;
+    color: white;
+    padding: 10px 50px;
+  
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(
+      70deg,
+      rgba(237, 222, 191, 0.4) 40%,
+      rgba(137, 0, 8, 0.4) 60%
+    );
+    box-shadow: black 5px 5px 60px;
+    margin-left: 20px;
+  }
+  #hero p {
+    font-size: 20px;
+    margin: 40px 0;
+  }
+  #hero .fleche {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    margin-top: 250px;
+  }
