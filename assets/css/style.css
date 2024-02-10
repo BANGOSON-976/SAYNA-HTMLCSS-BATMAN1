@@ -39,3 +39,36 @@ body {
 p {
   font-size: 22px;
 }
+/* Navigation Bar */
+
+nav {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  ul a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+  }
+  ul a:hover {
+    color: #ffff00;
+  }
+  
+  .brand:hover {
+    filter: invert(18%) sepia(82%) saturate(4658%) hue-rotate(355deg)
+      brightness(109%) contrast(112%);
+  }
+  
